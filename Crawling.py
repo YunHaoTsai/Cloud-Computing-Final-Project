@@ -34,5 +34,5 @@ def show_probable():
             match_information += "{:10}{:9}{:20}{} {}\n".format(home_team,team_record[1],pitchers[1],pitch_hands[i],pitch_summary[i])
         match_information += '```'
         probable.append(match_information)
-
+        
     return probable
